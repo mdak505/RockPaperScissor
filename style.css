@@ -1,0 +1,49 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  background: linear-gradient(45deg, #ffcc70, #ffb6c1, #87cefa);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  max-width: 400px;
+  width: 90%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.choices button {
+  padding: 15px 20px;
+  margin: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.choices button:hover {
+  transform: scale(1.1);
+}
+
+#result {
+  font-size: 20px;
+  margin: 20px 0;
+  color: #222;
+}
+
+.score-board p {
+  font-size: 18px;
+  margin: 5px;
+}
